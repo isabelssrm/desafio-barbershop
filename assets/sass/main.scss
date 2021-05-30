@@ -11,9 +11,12 @@
 @import 'base/base';
 
 /* layout */
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/article';
 
 /* components */
-
+@import 'components/buttons';
 /* pages */
 
 /* themes */

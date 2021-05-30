@@ -1,0 +1,21 @@
+article {
+    padding-top: 6rem;
+    
+    color: $nickel;
+}
+
+.article__title {
+    font-family: $playfair-display;
+    font-size: $medium;
+    padding-bottom: 2.5rem;
+}
+
+.article__paragraph {
+    text-align: justify;
+    line-height: 3em;
+    padding-bottom: 4rem;
+}
+
+.article__emphasis {
+    color: $ruddy-pink;
+}

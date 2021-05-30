@@ -1,1 +1,27 @@
-//This file is for create your style with relation on space of header
+header {
+    background-image: url('../img/post-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-top: 8rem;
+    text-align: center;
+    color: $white;
+    position: relative;
+    top: 8vh;
+    font-family: $playfair-display;
+    
+}
+
+.header__title--xx-large {
+    font-size: $xx-large;
+    font-weight: $font-black-italic;
+    font-style: italic;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 5rem;
+}
+
+.header__container--fa {
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+}

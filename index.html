@@ -5,6 +5,8 @@
     <meta name="author" content="Ana Isabel Siles">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootsrap 5.0.1-->
+    
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <!--Font awesome-->
@@ -15,6 +17,102 @@
     <title>Desafío-Barbershop</title>
 </head>
 <body>
+    <!--Navbar usando componente Boostrap-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src='assets/img/logo.png' height='30' alt='logo'><a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Horas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!--header section-->
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title--xx-large">5 formas de cuidar tu corte de cabello</h1>
+        </div>
+        <div class="header__container--fa">
+            <i class="fas fa-angle-double-down fa-2x"></i>
+        </div>
+
+    </header>
+    <!--Article section-->
+    <article class="article container">
+        <div class="article__title">
+            <h5>12 de abril de 2018</h5>
+        </div>
+        <div class="article__paragraph">
+            <p class="article__paragraph--line-height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum ad hic quidem molestias eligendi pariatur sequi dolore sint eveniet eos fuga perspiciatis, at nemo modi reiciendis magnam fugit perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolor consequatur aspernatur, vitae impedit incidunt quisquam enim quaerat et culpa non, officia earum. Voluptate velit doloribus, dicta voluptas dolor minus?</p> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fuga fugiat libero vero provident rerum error perferendis maiores, ipsam atque ratione ipsum? Placeat voluptatum cum magni recusandae necessitatibus ea accusamus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium porro recusandae magnam quidem fuga, adipisci amet quas dolor natus blanditiis quos, totam incidunt perferendis aliquam quae, debitis sint iure dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores architecto, consequuntur vitae voluptate fugit nobis quae odit distinctio accusamus in modi consectetur officia. Quisquam repudiandae deserunt ducimus voluptates voluptatem quas!</p> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cupiditate porro eos fugiat incidunt atque, aut repellat doloribus. Aspernatur incidunt dolore sapiente, commodi nesciunt praesentium facilis! Asperiores possimus nemo tempora! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, eos ea est libero atque enim culpa soluta eaque natus deserunt voluptate officia repellendus labore id velit, impedit voluptas obcaecati qui?</p> <br>
+            <p>Ab quibusdam fugiat quasi, animi nemo sunt, molestias mollitia blanditiis praesentium obcaecati cupiditate officiis ex totam fuga esse voluptatum incidunt et culpa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam dolorem vel obcaecati aliquid aut dolorum corrupti maiores. Earum, culpa quibusdam sequi similique nulla hic quaerat maxime autem accusantium eum? Impedit!</p> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ea aspernatur saepe inventore perspiciatis quaerat dolorem voluptates soluta suscipit dolor porro animi quia, consequatur molestiae, <span class="article__emphasis">optio doloribus itaque </span>nemo. Obcaecati! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quod magnam velit doloribus earum. Temporibus non veniam, ab impedit sed nobis quos. Ullam officiis, maxime quidem modi dolores perspiciatis quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti hic asperiores consectetur? Modi inventore aspernatur nobis reiciendis expedita, sit commodi ex eius animi aut aliquam dignissimos, vel, quas hic? Dolores.</p>
+        </div>
+        <div class="article__button">
+            <button type="button" class="button">Compartir</button>
+            <button type="button" class="button">Comentar en Twitter</button>
+        </div>
+    </article>
+    <!--Thumbnail section-->
+    <section>
+        <div>
+            <img src="assets/img/naomi-thai.png" alt="autora">
+            <h3>Naomi Thai</h3>
+            <a href="#">@naothai</a>
+            <a href="#">depelos.com</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint vitae eligendi quaerat, temporibus illo inventore hic. Corporis dolor tempora iusto error nam delectus saepe accusantium! Nesciunt cupiditate voluptatum rerum.</p>
+        </div>
+
+        
+    </section>
+    <!--Pagination section con bootstrap-->
+    <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Siguiente</a>
+          </li>
+        </ul>
+    </nav>
+
+    <!--footer-->
+    <footer>
+        <img src="assets/img/logo.png" alt="logo-footer">
+    </footer>
+
     
+
+
+      <!--Pooper js-->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <!--Bootstrap js-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 </body>
 </html>
