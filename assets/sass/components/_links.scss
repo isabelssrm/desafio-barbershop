@@ -1,0 +1,24 @@
+/* links author */
+.link {
+    text-decoration: none;
+    font-family: $roboto;
+    font-weight: $font-light;
+&--primary {
+    color: $ruddy-pink;
+    }
+&:hover {
+    color: $raisin-black;
+}
+&:active {
+    color: $platinum;
+}
+&--secondary {
+    color: $raisin-black;
+    }
+&--light {
+    color: $light-gray;
+    }
+&--dark {
+    color: $eerie-black;
+}
+}

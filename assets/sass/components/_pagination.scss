@@ -1,0 +1,37 @@
+/* pagination */
+.custom-pagination {
+    $block: &;
+    &__list {
+        display: flex;
+        @include list-unstyled();
+        font-family: $roboto;
+        justify-content: center;
+
+}
+
+&__item {
+    border: 1px solid $light-gray;
+    padding: .8rem 1rem;
+    background-color: $white;
+    
+    &:first-child {
+        border-top-left-radius: 50rem;
+        border-bottom-left-radius: 50rem;
+    }
+    &:last-child {
+        border-top-right-radius: 50rem;
+        border-bottom-right-radius: 50rem;
+    }
+    &--active {
+        background-color: $nickel;
+        #{$block}__link {
+        color: $white;
+        }
+    }
+}
+
+&__link {
+    text-decoration: none;
+    color: $eerie-black;
+    }
+}

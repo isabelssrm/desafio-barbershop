@@ -14,9 +14,16 @@
 @import 'layout/navbar';
 @import 'layout/header';
 @import 'layout/article';
+@import 'layout/section-author';
+@import 'layout/pagination-section';
+@import 'layout/footer';
 
 /* components */
 @import 'components/buttons';
+@import 'components/thumbnails';
+@import 'components/links';
+@import 'components/pagination';
+
 /* pages */
 
 /* themes */

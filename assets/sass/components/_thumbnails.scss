@@ -1,0 +1,17 @@
+/* author thumbnail */
+.author {
+    margin-top: 3rem;
+}
+.author__thumbnail {
+    border: 1px solid $light-gray;
+    border-radius: 50%;
+    margin-right: 3rem;
+    max-width: 100%;
+    height: auto;
+&--normal {
+    max-width: 142px;
+}
+&--small {
+    max-width: 133px;
+}
+}

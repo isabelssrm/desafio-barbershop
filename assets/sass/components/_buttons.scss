@@ -5,7 +5,7 @@
 }
 &:focus {
     background-color: $nickel;
-    border: 3px solid $light-gray;
+    border: 3px solid $nickel;
 }
 }
 
@@ -16,7 +16,11 @@
 }
 &:focus {
     background-color: $nickel;
-     border: 3px solid $light-gray;
+     border: 3px solid $nickel;
 
 }
+}
+
+.container-fluid {
+    background-color: $light-gray;
 }

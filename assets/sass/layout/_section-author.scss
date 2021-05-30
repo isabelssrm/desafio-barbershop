@@ -1,0 +1,27 @@
+.author {
+    margin-bottom: 4rem;
+}
+
+.author__flex {
+    display: flex;
+    align-items: center;  
+}
+
+.author__link {
+    flex: 2;
+}
+.author__name-large {
+    font-family: $playfair-display;
+    font-style: italic;
+    font-size: $x-large;
+    color: $eerie-black;
+    padding-bottom: .5rem;
+}
+
+.author_review {
+    font-size: $small;
+    text-align: justify;
+    line-height: 3em;
+    color: $nickel;
+    flex: 6;
+}
