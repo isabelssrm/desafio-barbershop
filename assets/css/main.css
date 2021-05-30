@@ -6,6 +6,7 @@
 /* Fonts */
 /*Font weight*/
 /*Font size*/
+/* mixin button */
 /* vendors */
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
@@ -10799,8 +10800,38 @@ article {
 }
 
 /* components */
-.button {
-  border-radius: 16px;
+.button__small {
+  border-radius: 50px;
+  padding: 0.7rem 1rem;
+  margin-right: 0.5rem;
+  background-color: #6C6E70;
+  border: 1px solid #6C6E70;
+  color: #FFF;
+}
+.button__small:hover {
+  background-color: #D1D1D1;
+  border: 1px solid #D1D1D1;
+}
+.button__small:focus {
+  background-color: #6C6E70;
+  border: 3px solid #D1D1D1;
+}
+
+.button__medium {
+  border-radius: 50px;
+  padding: 0.7rem 1rem;
+  margin-right: 0.5rem;
+  background-color: #6C6E70;
+  border: 1px solid #6C6E70;
+  color: #FFF;
+}
+.button__medium:hover {
+  background-color: #D1D1D1;
+  border: 1px solid #D1D1D1;
+}
+.button__medium:focus {
+  background-color: #6C6E70;
+  border: 3px solid #D1D1D1;
 }
 
 /* pages */

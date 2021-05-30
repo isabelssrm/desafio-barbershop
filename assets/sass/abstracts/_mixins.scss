@@ -1,0 +1,14 @@
+/* mixin button */
+@mixin button-properties {
+    border-radius: 50px;
+    padding: .7rem 1rem;
+    margin-right: .5rem;
+    background-color: $nickel;
+    border: 1px solid $nickel;
+    color: $white;
+}
+
+@mixin button-hover {
+    background-color: $light-gray;
+    border: 1px solid $light-gray;
+}

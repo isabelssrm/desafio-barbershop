@@ -1,3 +1,22 @@
-.button {
-    border-radius: 16px;
+.button__small { 
+    @include button-properties;
+&:hover {
+    @include button-hover;
+}
+&:focus {
+    background-color: $nickel;
+    border: 3px solid $light-gray;
+}
+}
+
+.button__medium {
+    @include button-properties;
+&:hover {
+    @include button-hover;
+}
+&:focus {
+    background-color: $nickel;
+     border: 3px solid $light-gray;
+
+}
 }
