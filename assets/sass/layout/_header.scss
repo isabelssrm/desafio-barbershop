@@ -25,3 +25,14 @@ header {
     padding-top: 15rem;
     padding-bottom: 3rem;
 }
+
+@media (max-width: 576px){
+    .header__title--xx-large {
+        font-size: 40px;
+        font-weight: $font-black-italic;
+        font-style: italic;
+        margin-left: 15%;
+        margin-right: 15%;
+        padding-top: 5rem;
+    }
+}
